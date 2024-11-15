@@ -19,7 +19,7 @@ header {
 /* bio Section (the image and shape of the entire bio and text) */
 .bio {
   text-align: center;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 30px auto;
 }
 
@@ -137,6 +137,28 @@ header {
 body {
   padding-bottom: 80px; 
 }
+
+.contact-section {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem; 
+  color: #000000; 
+  margin: 10px auto;
+  padding: 10px; 
+  line-height: 2; 
+}
+
+.contact-section a {
+  color: #007BFF; 
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+.contact-section a:hover {
+  color: #0056b3; 
+}
+
 
 /* how it adjusts for different sizes */
 @media (max-width: 768px) {
